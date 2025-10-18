@@ -19,4 +19,4 @@ jobs:
       run: pip install -r requirements.txt  # Если есть зависимости
 
     - name: Run tests
-      run: python -m pytest  # Если есть тесты
+      run: python -m test_calculator  # Если есть тесты
